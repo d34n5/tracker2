@@ -1,0 +1,46 @@
+body {
+  margin: 5%;
+  background-color: lavender;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url(http://gallery.yopriceville.com/var/albums/Nature/Forest_Trail_Landscape_Wallpaper.jpg?m=1370300400);
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  height: 25vh;
+}
+
+.form-group {
+  font-size: 1.25em;
+}
+
+.container {
+  margin: 5px;
+  background-image: url(http://www.zoowhiz.com/wp-content/uploads/2014/11/Learning-Pathways-graphic-02.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form-group {
+  opacity: .7;
+}
+
+#blanks {
+  color: black;
+  font-weight: 700;
+}
+
+#cssMessage {
+  display: none;
+}
+
+#cSharpMessage {
+  display: none;
+}
+
+#javaMessage {
+  display: none;
+}

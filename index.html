@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Epicodus Track Suggester</title>
+</head>
+<body>
+  <div class="jumbotron">
+    <h1><strong>Epicodus Track Suggester</strong></h1>
+  </div>
+  <div class="container">
+    <div class="row col-lg-6 col-lg-offset-3" id="blanks">
+      <form id="epicodus" name="epicodus">
+        <div class="form-group">
+          <label for="firstName">Please provide your first name:</label>
+          <input class="form-control" id="firstName" type="text">
+        </div><br>
+        <div class="form-group">
+          <div id="environment">
+            <label for="environment">Would you prefer to focus on <em>front-end
+            design</em> or <em>back-end development</em>?</label>
+            <div class="radio">
+              <label><input name="environment" type="radio" value="front">
+              Front-End Design</label>
+            </div>
+            <div class="radio">
+              <label><input name="environment" type="radio" value="back">
+              Back-End Development</label>
+            </div>
+            <div class="radio">
+              <label><input name="environment" type="radio" value=
+              "nopreference"> No Preference</label>
+            </div>
+          </div><br>
+        </div>
+        <div class="form-group">
+          <div id="company">
+            <label for="company">Would you prefer to work for a <em>large</em>
+            or <em>small</em> company?</label>
+            <div class="radio">
+              <label><input name="company" type="radio" value="large"> Large
+              Established Corporation</label>
+            </div>
+            <div class="radio">
+              <label><input name="company" type="radio" value="small"> Small
+              Fledgling Start-Up</label>
+            </div>
+            <div class="radio">
+              <label><input name="company" type="radio" value="nopref"> No
+              preference</label>
+            </div>
+          </div><br>
+        </div>
+        <div class="form-group">
+          <label for="content">Would you prefer to obsess over:</label>
+          <select class="form-control" id="content">
+            <option>
+              A. Layout, colors &amp; navigation
+            </option>
+            <option>
+              B. Content &amp; branding across large complex sites
+            </option>
+          </select><br>
+        </div>
+        <div class="form-group">
+          <label for="symbol">What are your favorite symbols?</label>
+          <select class="form-control" id="symbol">
+            <option>
+              A. {}
+            </option>
+            <option>
+              B. ()
+            </option>
+            <option>
+              C. &lt;&gt;
+            </option>
+            <option>
+              D. $
+            </option>
+          </select><br>
+        </div>
+        <div class="form-group">
+          <label for="users">Would you prefer to work on projects with heavy or
+          light user interaction?</label> <select class="form-control" id=
+          "users">
+            <option>
+              A. Heavy
+            </option>
+            <option>
+              B. Light
+            </option>
+          </select><br>
+        </div>
+        <div class="form-group">
+          <label for="food">What is your Favorite Food?</label><br>
+          <select class="form-control" id="food">
+            <option>
+              Pizza
+            </option>
+            <option>
+              BBQ
+            </option>
+            <option>
+              Tacos
+            </option>
+            <option>
+              Pad Thai
+            </option>
+          </select>
+        </div><br>
+        <br>
+        <button class="btn btn-success btn-lg" style="float: right;" type=
+        "submit">Submit for Suggestion</button>
+      </form><br>
+      <br>
+      <div id="cssMessage">
+        <br>
+        <h2>Thank you <span class="firstName"></span> for completing this
+        survey. We suggest you try the CSS/Design track at Epicodus! <img alt=
+        "css" src=
+        "http://icons.iconarchive.com/icons/treetog/file-type/256/css-icon.png">
+        </h2>
+      </div>
+      <div id="cSharpMessage">
+        <br>
+        <h2>Thank you <span class="firstName"></span> for completing this
+        survey. We suggest you try the C#/.NET track at Epicodus! <img alt=
+        "c-sharp" src="http://jeroendj.be/assets/img/Icons/c.ico"></h2>
+      </div>
+      <div id="javaMessage">
+        <br>
+        <h2>Thank you <span class="firstName"></span> for completing this
+        survey. We suggest you try the Java/Android track at Epicodus!
+        <img alt="java" src=
+        "https://www.macupdate.com/images/icons256/50734.png"></h2>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
