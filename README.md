@@ -10,7 +10,7 @@
 This webpage helps aspiring coding students choose a programming language to study in detail.  Users are surveyed for their preferences, and a suggested track is returned.  Project also provides me an opportunity to exercise my new Bootstrap, Javascript & jQuery skills.
 
 ## Installation & Set-Up
-1. Clone the repository: https://github.com/d34n5/track-suggester
+1. Clone the repository: https://github.com/d34n5/tracker2
 2. Use your preferred browser to open index.html
 
 ## Known Bugs
